@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CHRIST SCHOOL</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: darkblue;
+  padding: 1px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 300px;
+  background: lightblue;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: cyan;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Style the table */
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  padding: 2px;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>CHRIST SCHOOL</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="christ_school.html">Teachers</a></li>
+      <br>
+      <li><a href="Students.html">Students</a></li>
+      <br>
+      <li><a href="Tables.html">HTML Tables</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 align="center">Students</h1>
+    <table>
+      <tr>
+        <th>Reg. no.</th>
+        <th>Name</th>
+        <th>Father's Name</th>
+        <th>Class</th>
+        <th>Admission Date</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+      <tr>
+        <td>03</td>
+        <td>Allan</td>
+        <td>George</td>
+        <td>MCA- Sec A</td>
+        <td>22 July 2021</td>
+      </tr>
+      <tr>
+        <td>04</td>
+        <td>Mohammad</td>
+        <td>Irfan</td>
+        <td>MCA- Sec A</td>
+        <td>17 July 2021</td>
+      </tr>
+      <tr>
+        <td>05</td>
+        <td>Alex</td>
+        <td>Ishank</td>
+        <td>MCA- Sec B</td>
+        <td>8 July 2021</td>
+      </tr>
+      <tr>
+        <td>06</td>
+        <td>Sneha</td>
+        <td>Rachit</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>07</td>
+        <td>Ishita</td>
+        <td>Rohan</td>
+        <td>MCA- Sec B</td>
+        <td>6 July 2021</td>
+      </tr>
+      <tr>
+        <td>08</td>
+        <td>Raunak</td>
+        <td>Rohit</td>
+        <td>MCA- Sec B</td>
+        <td>28 June 2021</td>
+      </tr>
+    </table>
+  </article>
+
+</section>
+
+<footer>
+  <marquee direction="left" scrollamount="10">Latest News: Addmissions Open</marquee>
+  <marquee direction="right" scrollamount="12">Latest News: MCA ESE Results</marquee>
+  <marquee direction="left" scrollamount="15">Latest News: Ongoing Placements</marquee>
+</footer>
+
+</body>
+</html>

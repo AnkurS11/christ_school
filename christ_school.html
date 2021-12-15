@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CHRIST SCHOOL</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: darkblue;
+  padding: 1px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  height: 300px;
+  background: lightblue;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 45%;
+  background-color: cyan;
+  height: 300px;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Style the footer */
+footer {
+  background-color: skyblue;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>CHRIST SCHOOL</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="christ_school.html">Teachers</a></li>
+      <br>
+      <li><a href="Students.html">Students</a></li>
+      <br>
+      <li><a href="Tables.html">HTML Tables</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1>Teachers- Section A</h1>
+    <ul style="list-style-type:circle">
+      <li> Science Teachers </li>
+        <ol>
+          <li> Prabhu Sir </li>
+          <li> Tulasi Mam </li>
+        </ol>
+    <hr>
+      <li> Maths Teacher </li>
+        <ol>
+          <li> Arul Kumar Sir </li>
+          <li> Sagaya Mam </li>
+        </ol>
+    </ul>
+  </article>
+
+  <article>
+    <h1>Teachers- Section B</h1>
+    <ul style="list-style-type:circle">
+      <li> Computer Science </li>
+        <ol>
+          <li> Manjunath Sir </li>
+          <li> Chandra Mam </li>
+        </ol>
+    <hr>
+      <li> Statistics Teacher </li>
+        <ol>
+          <li> Saleema Mam </li>
+          <li> Nismon Sir </li>
+        </ol>
+    </ul>
+  </article>
+
+</section>
+
+<footer>
+  <marquee direction="right" scrollamount="8">Latest News: Addmissions Open</marquee>
+  <marquee direction="left" scrollamount="8">Latest News: MCA ESE Results</marquee>
+  <marquee direction="right" scrollamount="8">Latest News: Ongoing Placements</marquee>
+</footer>
+
+</body>
+</html>

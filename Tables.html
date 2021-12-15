@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>CHRIST SCHOOL</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Style the header */
+header {
+  background-color: darkblue;
+  padding: 1px;
+  text-align: center;
+  font-size: 25px;
+  color: white;
+}
+
+/* Create two columns/boxes that floats next to each other */
+nav {
+  float: left;
+  width: 10%;
+  background: lightblue;
+  padding: 30px;
+}
+
+/* Style the list inside the menu */
+nav ul {
+  list-style-type: none;
+  padding: 0;
+  height: 1142px;
+}
+
+article {
+  float: left;
+  padding: 20px;
+  width: 90%;
+  background-color: cyan;
+}
+
+/* Clear floats after the columns */
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+</style>
+</head>
+<body>
+
+<header>
+  <h2>CHRIST SCHOOL</h2>
+</header>
+
+<section>
+  <nav>
+    <ul>
+      <li><a href="christ_school.html">Teachers</a></li>
+      <br>
+      <li><a href="Students.html">Students</a></li>
+      <br>
+      <li><a href="Tables.html">HTML Tables</a></li>
+    </ul>
+  </nav>
+  
+  <article>
+    <h1 align="center">Basic Table</h1>
+    <table style="margin-left:auto;margin-right:auto;">
+      <tr>
+        <th>Reg. no.</th>
+        <th>Name</th>
+        <th>Father's Name</th>
+        <th>Class</th>
+        <th>Admission Date</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+<hr>
+    <h1 align="center">Table with Border</h1>
+    <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+      <tr>
+        <th>Reg. no.</th>
+        <th>Name</th>
+        <th>Father's Name</th>
+        <th>Class</th>
+        <th>Admission Date</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+<hr>
+    <h1 align="center">Table with Collapsed Border</h1>
+    <table style="border:1px solid black;border-collapse:collapse;margin-left:auto;margin-right:auto;">
+      <tr>
+        <th>Reg. no.</th>
+        <th>Name</th>
+        <th>Father's Name</th>
+        <th>Class</th>
+        <th>Admission Date</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+    <hr>
+    <h1 align="center">Table with Cell Padding</h1>
+    <table style="border:1px solid black;margin-left:auto;margin-right:auto;padding: 5px;">
+      <tr>
+        <th>Reg. no.</th>
+        <th>Name</th>
+        <th>Father's Name</th>
+        <th>Class</th>
+        <th>Admission Date</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+    <hr>
+    <h1 align="center">Table with Larger Heading</h1>
+    <table style="border:1px solid black;margin-left:auto;margin-right:auto;padding: 5px;">
+      <tr>
+        <th text-align="center"><FONT FACE="Arial" SIZE=4>Reg. no.</FONT></th>
+        <th text-align="center"><FONT FACE="Arial" SIZE=4>Name</FONT></th>
+        <th text-align="center"><FONT FACE="Arial" SIZE=4>Father's Name</FONT></th>
+        <th text-align="center"><FONT FACE="Arial" SIZE=4>Class</FONT></th>
+        <th text-align="center"><FONT FACE="Arial" SIZE=4>Admission Date</FONT></th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+    <hr>
+    <h1 align="center">Table with left-aligned Heading</h1>
+    <table style="border:1px solid black;margin-left:auto;margin-right:auto;padding: 5px;">
+      <tr>
+        <th style="text-align: left;">Reg. no.</th>
+        <th style="text-align: left;">Name</th>
+        <th style="text-align: left;">Father's Name</th>
+        <th style="text-align: left;">Class</th>
+        <th style="text-align: left;">Admission Date</th>
+      </tr>
+      <tr>
+        <td >01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+    <hr>
+    <h1 align="center">Table with vertical headings</h1>
+    <table style="border:1px solid black;border-collapse:collapse;margin-left:auto;margin-right:auto;">
+      <tr>
+        <th scope="row" style="border:1px solid black;">Reg. no.</th>
+        <td>01</td>
+        <td>02</td>
+      </tr>
+      <tr>
+        <th scope="row" style="border:1px solid black;">Name</th>
+        <td>Ankur</td>
+        <td>Aaradhya</td>
+      </tr>
+      <tr>
+        <th scope="row" style="border:1px solid black;">Father's Name</th>
+        <td>Manoj</td>
+        <td>Akanksh</td>
+      </tr>
+      <tr>
+        <th scope="row" style="border:1px solid black;">Class</th>
+        <td>MCA- Sec A</td>
+        <td>MCA- Sec B</td>
+      </tr>
+      <tr>
+        <th scope="row" style="border:1px solid black;">Admission Date</th>
+        <td>1 July 2021</td>        
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+    <hr>
+    <h1 align="center">Table with Caption</h1>
+    <table style="border:1px solid black;margin-left:auto;margin-right:auto;">
+      <caption>Student Table</caption>
+      <tr>
+        <th>Reg. no.</th>
+        <th>Name</th>
+        <th>Father's Name</th>
+        <th>Class</th>
+        <th>Admission Date</th>
+      </tr>
+      <tr>
+        <td>01</td>
+        <td>Ankur</td>
+        <td>Manoj</td>
+        <td>MCA- Sec A</td>
+        <td>1 July 2021</td>
+      </tr>
+      <tr>
+        <td>02</td>
+        <td>Aaradhya</td>
+        <td>Akanksh</td>
+        <td>MCA- Sec B</td>
+        <td>5 July 2021</td>
+      </tr>
+    </table>
+  </article>
+
+</section>
+
+</body>
+</html>
